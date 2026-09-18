@@ -1,0 +1,42 @@
+# ============================================================
+# .gitignore cho repo demo JIT Vulnerability Detection
+# ============================================================
+
+# File cau hinh local (chua duong dan SCGL)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary
+*.tmp
+*.bak
+*.log
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# File diff sinh ra khi chay auto_demo.py --keep-temp
+# (KHONG ignore - muon commit de lam bang chung)
+# diff_*.txt
